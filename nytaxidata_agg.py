@@ -3,7 +3,7 @@ from pyspark.sql.functions import col, count, sum
 
 # This file defines a sample transformation.
 # Edit the sample below or add new transformations
-# using "+ Add" in the file browser.
+# using "+ Add" in the file browser." adding comment"
 
 @dp.table(
     comment="Aggregated NYC taxi trip data grouped by pickup zip code, with total trip count and total fare amount per zip.",
