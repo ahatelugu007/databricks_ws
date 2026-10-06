@@ -1,6 +1,5 @@
 from pyspark import pipelines as dp
 from pyspark.sql.functions import col, count, sum
-from utilities import utils
 
 # This file defines a sample transformation.
 # Edit the sample below or add new transformations
